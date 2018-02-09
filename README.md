@@ -20,16 +20,16 @@ python Hourly_Balance_Model_v3.py
 ## Output graphs
 
 Capacity characteristics graph:
-![capacity-graph](https://github.com/TStesco/DH-network-simulations/v3_plot_cap_characteristics.png)
+![capacity-graph](https://github.com/TStesco/DH-network-simulations/blob/master/v3_plot_cap_characteristics.png)
 <br>
 System Heat-to-Power ratio comparison graph:
-![heat-to-power](https://github.com/TStesco/DH-network-simulations/v3_plot_sys_COP.png)
+![heat-to-power](https://github.com/TStesco/DH-network-simulations/blob/master/v3_plot_sys_COP.png)
 <br>
 Thermal exports comparison graph:
-![thermal-exports](https://github.com/TStesco/DH-network-simulations/v3_plot_hours_thermal_export.png)
+![thermal-exports](https://github.com/TStesco/DH-network-simulations/blob/master/v3_plot_hours_thermal_export.png)
 <br>
 Thermal recovery and use graph:
-![process-use](https://github.com/TStesco/DH-network-simulations/v3_plot_process_use.png)
+![process-use](https://github.com/TStesco/DH-network-simulations/blob/master/v3_plot_process_use.png)
 
 ## output sankey diagrams
 To generate the sankey diagrams use this online tool: http://sankeymatic.com/build/ <br>
