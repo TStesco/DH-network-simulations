@@ -1,0 +1,69 @@
+'paste diagram code at http://sankeymatic.com/build/
+
+'primary sources (MWh)
+Gas Boiler [0] Zone Heating
+Oil Boiler [0] Zone Heating
+Gas [0] Gas Boiler #4c5d70
+Oil [0] Oil Boiler
+Process Heat [10942] Heat Exchanger
+Biomass Incineration [41] High-T Network #55b752
+Solar Thermal HT [3308] High-T Network
+Boreholes [1] GSHP HT #55b752
+Boreholes [2774] GSHP MT #55b752
+Boreholes [1743] GSHP LT #55b752
+Electric Grid [0] GSHP HT #ffdf00
+Electric Grid [1012] GSHP MT #ffdf00
+Electric Grid [203] GSHP LT #ffdf00
+Electric Grid [761] DHW #ffdf00
+Electric Grid [174] Building GSHP #ffdf00
+Building GSHP [600] Zone Heating #ffdf00
+Electric Grid [274] Building Chiller #ffdf00
+Building Chiller [944] Zone Cooling #3EBBC4
+Sihl [3007] Hydro Plant
+'Secondary sources (MWh)
+GSHP HT [1] High-T Network
+GSHP MT [3786] Mid-T Network
+GSHP LT [1946] Low-T Network
+High-T Network [1905] Mid-T Network
+Hydro Plant [2706] Electric Gen.
+Heat Exchanger [8062] Mid-T Network
+Heat Exchanger [1786] High-T Network
+'Distribution (MWh)
+High-T Network [2736] DHW
+High-T Network [946] HT Losses
+Mid-T Network [4104] DHW
+Mid-T Network [8566] Zone Heating
+Mid-T Network [1085] MT Losses
+Low-T Network [1865] Zone Cooling
+Low-T Network [80] LT Losses
+Electric Gen. [57] Pump Energy
+Electric Gen. [2650] Grid Feed-in
+' Color settings
+:High-T Network #CC0000
+:Mid-T Network #ff0000
+:Gas #BF3D48
+:DHW #CC0000
+:HT Losses #BF3D48
+:Process Heat #BF3D48
+:Heat Exchanger #BF3D48
+:Zone Heating #ff0000
+:LT Losses #8eabad
+:HT Losses #8eabad
+:Zone Cooling #3EBBC4
+:Electric Gen. #f9ee11
+:Pump Energy #6be050
+:MT Losses #8eabad
+:GSHP MT #ff0000
+:GSHP LT #2e70ba
+:Boreholes #55b752
+:Gas #4c5d70
+:Low-T Network #2e70ba
+:Electric Grid #ffdf00
+:Grid Feed-in #ffdf00
+:Oil #49231b
+:Solar Thermal HT #BF3D48
+:Oil Boiler #49231b
+:Biomass Incineration #55b752
+:Building Chiller #3EBBC4
+:Gas Boiler #ff0000
+:Building GSHP #ff0000
